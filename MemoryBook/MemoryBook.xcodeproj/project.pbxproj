@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		905E9B5D28D8C38F00A228FD /* MemoryBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E9B5C28D8C38F00A228FD /* MemoryBookApp.swift */; };
+		905E9B5F28D8C38F00A228FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E9B5E28D8C38F00A228FD /* ContentView.swift */; };
+		905E9B6128D8C39100A228FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905E9B6028D8C39100A228FD /* Assets.xcassets */; };
+		905E9B6428D8C39100A228FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905E9B6328D8C39100A228FD /* Preview Assets.xcassets */; };
+		905E9B6E28D8C39200A228FD /* MemoryBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E9B6D28D8C39200A228FD /* MemoryBookTests.swift */; };
+		905E9B7828D8C39200A228FD /* MemoryBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E9B7728D8C39200A228FD /* MemoryBookUITests.swift */; };
+		905E9B7A28D8C39200A228FD /* MemoryBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905E9B7928D8C39200A228FD /* MemoryBookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		905E9B6A28D8C39200A228FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905E9B5128D8C38F00A228FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905E9B5828D8C38F00A228FD;
+			remoteInfo = MemoryBook;
+		};
+		905E9B7428D8C39200A228FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905E9B5128D8C38F00A228FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 905E9B5828D8C38F00A228FD;
+			remoteInfo = MemoryBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		905E9B5928D8C38F00A228FD /* MemoryBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E9B5C28D8C38F00A228FD /* MemoryBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBookApp.swift; sourceTree = "<group>"; };
+		905E9B5E28D8C38F00A228FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		905E9B6028D8C39100A228FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905E9B6328D8C39100A228FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		905E9B6928D8C39200A228FD /* MemoryBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E9B6D28D8C39200A228FD /* MemoryBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBookTests.swift; sourceTree = "<group>"; };
+		905E9B7328D8C39200A228FD /* MemoryBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		905E9B7728D8C39200A228FD /* MemoryBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBookUITests.swift; sourceTree = "<group>"; };
+		905E9B7928D8C39200A228FD /* MemoryBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		905E9B5628D8C38F00A228FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B6628D8C39200A228FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B7028D8C39200A228FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		905E9B5028D8C38F00A228FD = {
+			isa = PBXGroup;
+			children = (
+				905E9B5B28D8C38F00A228FD /* MemoryBook */,
+				905E9B6C28D8C39200A228FD /* MemoryBookTests */,
+				905E9B7628D8C39200A228FD /* MemoryBookUITests */,
+				905E9B5A28D8C38F00A228FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		905E9B5A28D8C38F00A228FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905E9B5928D8C38F00A228FD /* MemoryBook.app */,
+				905E9B6928D8C39200A228FD /* MemoryBookTests.xctest */,
+				905E9B7328D8C39200A228FD /* MemoryBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		905E9B5B28D8C38F00A228FD /* MemoryBook */ = {
+			isa = PBXGroup;
+			children = (
+				905E9B5C28D8C38F00A228FD /* MemoryBookApp.swift */,
+				905E9B5E28D8C38F00A228FD /* ContentView.swift */,
+				905E9B6028D8C39100A228FD /* Assets.xcassets */,
+				905E9B6228D8C39100A228FD /* Preview Content */,
+			);
+			path = MemoryBook;
+			sourceTree = "<group>";
+		};
+		905E9B6228D8C39100A228FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				905E9B6328D8C39100A228FD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		905E9B6C28D8C39200A228FD /* MemoryBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				905E9B6D28D8C39200A228FD /* MemoryBookTests.swift */,
+			);
+			path = MemoryBookTests;
+			sourceTree = "<group>";
+		};
+		905E9B7628D8C39200A228FD /* MemoryBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				905E9B7728D8C39200A228FD /* MemoryBookUITests.swift */,
+				905E9B7928D8C39200A228FD /* MemoryBookUITestsLaunchTests.swift */,
+			);
+			path = MemoryBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		905E9B5828D8C38F00A228FD /* MemoryBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905E9B7D28D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBook" */;
+			buildPhases = (
+				905E9B5528D8C38F00A228FD /* Sources */,
+				905E9B5628D8C38F00A228FD /* Frameworks */,
+				905E9B5728D8C38F00A228FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MemoryBook;
+			productName = MemoryBook;
+			productReference = 905E9B5928D8C38F00A228FD /* MemoryBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		905E9B6828D8C39200A228FD /* MemoryBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905E9B8028D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBookTests" */;
+			buildPhases = (
+				905E9B6528D8C39200A228FD /* Sources */,
+				905E9B6628D8C39200A228FD /* Frameworks */,
+				905E9B6728D8C39200A228FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905E9B6B28D8C39200A228FD /* PBXTargetDependency */,
+			);
+			name = MemoryBookTests;
+			productName = MemoryBookTests;
+			productReference = 905E9B6928D8C39200A228FD /* MemoryBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		905E9B7228D8C39200A228FD /* MemoryBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 905E9B8328D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBookUITests" */;
+			buildPhases = (
+				905E9B6F28D8C39200A228FD /* Sources */,
+				905E9B7028D8C39200A228FD /* Frameworks */,
+				905E9B7128D8C39200A228FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				905E9B7528D8C39200A228FD /* PBXTargetDependency */,
+			);
+			name = MemoryBookUITests;
+			productName = MemoryBookUITests;
+			productReference = 905E9B7328D8C39200A228FD /* MemoryBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		905E9B5128D8C38F00A228FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					905E9B5828D8C38F00A228FD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					905E9B6828D8C39200A228FD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 905E9B5828D8C38F00A228FD;
+					};
+					905E9B7228D8C39200A228FD = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 905E9B5828D8C38F00A228FD;
+					};
+				};
+			};
+			buildConfigurationList = 905E9B5428D8C38F00A228FD /* Build configuration list for PBXProject "MemoryBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 905E9B5028D8C38F00A228FD;
+			productRefGroup = 905E9B5A28D8C38F00A228FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				905E9B5828D8C38F00A228FD /* MemoryBook */,
+				905E9B6828D8C39200A228FD /* MemoryBookTests */,
+				905E9B7228D8C39200A228FD /* MemoryBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		905E9B5728D8C38F00A228FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E9B6428D8C39100A228FD /* Preview Assets.xcassets in Resources */,
+				905E9B6128D8C39100A228FD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B6728D8C39200A228FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B7128D8C39200A228FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		905E9B5528D8C38F00A228FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E9B5F28D8C38F00A228FD /* ContentView.swift in Sources */,
+				905E9B5D28D8C38F00A228FD /* MemoryBookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B6528D8C39200A228FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E9B6E28D8C39200A228FD /* MemoryBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905E9B6F28D8C39200A228FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905E9B7A28D8C39200A228FD /* MemoryBookUITestsLaunchTests.swift in Sources */,
+				905E9B7828D8C39200A228FD /* MemoryBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		905E9B6B28D8C39200A228FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905E9B5828D8C38F00A228FD /* MemoryBook */;
+			targetProxy = 905E9B6A28D8C39200A228FD /* PBXContainerItemProxy */;
+		};
+		905E9B7528D8C39200A228FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 905E9B5828D8C38F00A228FD /* MemoryBook */;
+			targetProxy = 905E9B7428D8C39200A228FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		905E9B7B28D8C39200A228FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		905E9B7C28D8C39200A228FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		905E9B7E28D8C39200A228FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		905E9B7F28D8C39200A228FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MemoryBook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		905E9B8128D8C39200A228FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryBook.app/MemoryBook";
+			};
+			name = Debug;
+		};
+		905E9B8228D8C39200A228FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MemoryBook.app/MemoryBook";
+			};
+			name = Release;
+		};
+		905E9B8428D8C39200A228FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoryBook;
+			};
+			name = Debug;
+		};
+		905E9B8528D8C39200A228FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.g0rdito.MemoryBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MemoryBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		905E9B5428D8C38F00A228FD /* Build configuration list for PBXProject "MemoryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E9B7B28D8C39200A228FD /* Debug */,
+				905E9B7C28D8C39200A228FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905E9B7D28D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E9B7E28D8C39200A228FD /* Debug */,
+				905E9B7F28D8C39200A228FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905E9B8028D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E9B8128D8C39200A228FD /* Debug */,
+				905E9B8228D8C39200A228FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		905E9B8328D8C39200A228FD /* Build configuration list for PBXNativeTarget "MemoryBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				905E9B8428D8C39200A228FD /* Debug */,
+				905E9B8528D8C39200A228FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 905E9B5128D8C38F00A228FD /* Project object */;
+}
